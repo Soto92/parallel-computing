@@ -1,7 +1,5 @@
-
 #include <stdio.h>
 #include <stddef.h>
-
 
 void simt_kernel(float* a, size_t n) {
   for (size_t tid = 0; tid < n; ++tid) {
